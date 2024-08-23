@@ -5,37 +5,6 @@
 #total
 {
     background-color: black;
-    /* background-color: #124E66; */
-    /* background-color: #748D92; */
-    /* 1. Navy Blue and White */
-    /* background: linear-gradient(to bottom right,#001f3f,#FFFFFF); */
-    /* 2. my own colour */
-    /* background:linear-gradient(to bottom right, #62393c, #181e41); */
-    /* 3. Charcoal Gray and Blush Pink */
-    /* background:linear-gradient(to bottom right, #FFC0CB, #36454F); */
-    /* 4. Mint & Soft lavender */
-    /* background:linear-gradient(to bottom right, #98FF98, #E6E6FA); */
-    /* 5. Deep Green and Light Beige */
-    /* background:linear-gradient(to bottom right,#004225, #F5F5DC); */
-    /* 6. Dark Purple and Light Gray */
-    /* background:linear-gradient(to bottom right, #4B0082,#D3D3D3); */
-    /* 7. Teal and Coral */
-    /* background:linear-gradient(to bottom right,#008080,#FF7F50); */
-    /* 8. Royal Blue and Bright Yellow */
-    /* background:linear-gradient(to bottom right,#4169E1,#FFD700); */
-    /* 9. Burgundy and Cream */
-    /* background:linear-gradient(to bottom right, #800020,#FFFDD0); */
-    /* 10. Slate Blue and Warm Gray */
-    /* background:linear-gradient(to bottom right,#6A5ACD,#808080); */
-    /* 11. */
-    /* background:linear-gradient(to bottom right,#124E66,#748D92); */
-    /* 12. */
-    /* background:linear-gradient(to bottom right,#0FA4AF,#748D92); */
-    /* background:linear-gradient(to bottom right,magenta,skyblue); */
-
-
-
-
     color: white;
    
 }
@@ -45,7 +14,7 @@
    
 
 }
-.row1
+.home
 {
     height: 900px;
 }
@@ -118,7 +87,7 @@ header a:hover
     text-decoration: underline;
 }
 /* ------------------------------------row1---------------------------- */
-#row1
+#home
 {
     height: 700px;
 }
@@ -312,7 +281,7 @@ header a:hover
   }
 
  /* ---------------------------------------------row2----------------------------------- */
-#row2
+#about
 {
     display: flex;
     position: relative;
@@ -414,7 +383,7 @@ header a:hover
 
  /* ---------------------------------------------Education----------------------------------- */
 
-#row3
+#Education
 {
     height: 100vh;
     width: 100vw;  
@@ -488,7 +457,7 @@ header a:hover
 
 
  /* ---------------------------------------------Skills----------------------------------- */
-#row4
+#skills
 {
     
     width: 100vw;
