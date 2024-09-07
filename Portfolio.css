@@ -26,6 +26,9 @@
     display: flex;
     align-items: center;
     background: transparent;
+    background-color: black;
+    position:fixed;
+    z-index: 1;
     
 }
 .logo
@@ -102,7 +105,7 @@ header a:hover
     width: 500px;
     height: 500px;
     position: relative;
-    top: 60px;
+    top: 120px;
     left: 200px;
     padding: 10px 30px;
 }
@@ -164,6 +167,8 @@ header a:hover
 .icons .hire:hover
 {
     transform: scaleX(1.2); 
+    /* color:yellow; */
+    background-color: white;
 }
 .img1 img
 {
@@ -203,7 +208,7 @@ header a:hover
     width: 350px;
     border-radius: 25%;
     position: relative;
-    top: 50px;
+    top: 150px;
     left: 400px;
 
 }
@@ -228,7 +233,7 @@ header a:hover
     height: 100%;
     border-left: 3px solid #FFD700;
     right: -8px;
-    animation: cursor 0.1s infinite, typing 20s steps(14) infinite;
+    animation: cursor 0.1s infinite, typing 20s steps(20) infinite;
   }
   @keyframes cursor{
     to{
@@ -845,10 +850,3 @@ form
       width: 50%;
     }
   }
-
-
-
-
-
-
-
