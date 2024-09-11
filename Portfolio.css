@@ -58,9 +58,12 @@
     padding: 10px;
 
 }
-.a a:hover
+.a:hover
 {
-    text-decoration: none;
+    background-color: #FFD700;
+    color:white;
+    border-radius: 25px;
+    padding: 7px;
 
 }
 .name
@@ -84,11 +87,7 @@ header a
     font-family: Arial, Helvetica, sans-serif;
     color:#FFD700;
 }
-header a:hover
-{
-    color:white;
-    text-decoration: underline;
-}
+
 /* ------------------------------------row1---------------------------- */
 #home
 {
@@ -850,3 +849,10 @@ form
       width: 50%;
     }
   }
+
+
+
+
+
+
+
